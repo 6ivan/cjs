@@ -1,0 +1,19 @@
+.boxCardTitle>span{color: #302f62; font-weight: bold; font-size: 20px;}
+.card_title{
+    display: flex;
+    justify-content: space-between;
+}
+.fontsmall{
+    font-weight: 400 !important;
+}
+
+/* tabs标签页样式 start */
+.elTabsNav .el-tabs__item{color: #8995cb;}
+.elTabsNav .el-tabs__item:hover{color: #302f62;}
+.elTabsNav .el-tabs__item.is-active{font-size: 16px;font-weight: bold; color: #35316e;}
+.elTabsNav .el-tabs__active-bar{height:4px;background-color: #656dff;}
+.elTabsNav .el-tabs__nav-wrap::after{height:1px;}
+.elTabsNavDiv .elTabsNav .el-tabs__nav-wrap::after{height:0;}
+.elTabsNavDiv .el-card__header{padding-bottom: 0;}
+.elTabsNavDiv .el-tabs__header{margin-bottom: 0;}
+/* tabs标签页样式 end */
